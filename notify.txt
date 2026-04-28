@@ -1,7 +1,8 @@
-Etiam tristique in enim non scelerisque. Phasellus ornare sapien ut porttitor vestibulum. Aliquam augue neque, ultrices ac finibus at, tincidunt et enim. Pellentesque eleifend ultrices lacus eget venenatis. Donec felis dui, maximus eget magna sed, auctor suscipit dolor. Ut mauris eros, luctus ut fringilla at, malesuada sit amet urna. Integer volutpat egestas turpis sit amet euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc ut laoreet mi. Etiam quam arcu, mollis quis felis at, dictum tristique nunc. Fusce iaculis sem lorem, ut pretium justo congue nec. Nunc odio nisi, cursus a purus eu, placerat luctus elit. Fusce id laoreet massa, ac sollicitudin neque. Nulla in faucibus nibh. Cras eu dui eget nisl condimentum auctor a sit amet velit.
-
-Suspendisse interdum ullamcorper est nec vehicula. Aenean velit tortor, maximus non vehicula vel, finibus at ligula. Donec eu metus in erat vestibulum posuere nec vitae odio. Aenean in erat ac velit dignissim iaculis. Praesent a lacinia lectus. Donec tincidunt urna eu ligula vulputate convallis. Mauris ultricies posuere lacus sit amet eleifend. Fusce in finibus justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
 this is a new bug
 fixing bugs
 
+fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in Semantic Versioning).
+feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in Semantic Versioning).
+BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in Semantic Versioning). A BREAKING CHANGE can be part of commits of any type.
+types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the Angular convention) recommends build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others.
+footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
