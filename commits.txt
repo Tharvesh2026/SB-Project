@@ -5,3 +5,16 @@ Commit message with description and breaking change footer
 
 Commit message with ! to draw attention to breaking change
     feat!: send an email to the customer when a product is shipped
+
+Commit message with scope and ! to draw attention to breaking change
+   feat(api)!: send an email to the customer when a product is shipped
+
+Commit message with both ! and BREAKING CHANGE footer
+   feat!: drop support for Node 6
+   BREAKING CHANGE: use JavaScript features not available in Node 6.
+
+Commit message with no body
+   docs: correct spelling of CHANGELOG
+
+Commit message with scope
+   feat(lang): add Polish language
