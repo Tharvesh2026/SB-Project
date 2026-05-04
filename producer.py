@@ -7,11 +7,11 @@ connection = pika.BlockingConnection(params)
 channel = connection.channel()
 
 channel.queue_declare(queue='hello')
-
+bodyMsg = input("Enter message to send: ")
 channel.basic_publish(
     exchange='',
     routing_key='hello',
-    body='Hello consumer! RabbitMQ Works sucessfully'
+    body=bodyMsg
 )
 
 print("Message sent")
