@@ -11,7 +11,7 @@ channel.queue_declare(queue='hello')
 channel.basic_publish(
     exchange='',
     routing_key='hello',
-    body='Hello from Python!'
+    body='Hello consumer! RabbitMQ Works sucessfully'
 )
 
 print("Message sent")
